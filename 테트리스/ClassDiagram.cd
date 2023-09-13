@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Board">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAAAgAAAQAAAAAAAAAAAIAAAAIAAgAACAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagram">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAQAIAAAACAAAAAAAAAgAAYCBgAAAAAAQ=</HashCode>
+      <FileName>Diagram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Document">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <AssociationLine Name="singleton" Type="Document" ManuallyRouted="true">
+      <Path>
+        <Point X="6.767" Y="2" />
+        <Point X="6.767" Y="1.583" />
+        <Point X="7.244" Y="1.583" />
+        <Point X="7.244" Y="2" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="board" Type="Board" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.625" />
+        <Point X="5.5" Y="3.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgIAAABAAAAAIIACCAQAAAAIKYAAAgAIAAAA=</HashCode>
+      <FileName>Document.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="now" />
+      <Field Name="next" />
+      <Field Name="singleton" />
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Typedef Name="bs_arr" Collapsed="true">
+    <Position X="13.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="block" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Diagram.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
